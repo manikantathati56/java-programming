@@ -1,0 +1,17 @@
+// java program to multi of two numbers using functions
+
+public class multitwofunctions {
+    public static void my_function(int n1,int n2){
+        int product=n1*n2;
+        System.out.println("Multi of two numbers = "+product);
+    }
+    public static void main(String[] args) {
+        int n1=8;
+        int n2=4;
+        my_function(n1, n2);
+    }
+}
+
+
+output:
+Multi of two numbers = 32
