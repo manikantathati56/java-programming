@@ -1,0 +1,25 @@
+// java program to find positive or negative of a number
+
+import java.util.Scanner;
+public class positivenegative{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number:");
+        int n=sc.nextInt();
+        if (n>0){
+            System.out.println("Positive number");
+        }
+        else if (n<0){
+            System.out.println("Negative number");
+        }
+        else{
+            System.out.println("Equal to zero");
+        }
+        sc.close();
+    }
+}
+
+output:
+Enter the number:
+23
+Positive number
