@@ -1,0 +1,13 @@
+// java program to sub two numbers
+
+public class subtwo {
+    public static void main(String[] args) {
+        int n1=10;
+        int n2=4;
+        int sub=n1-n2;
+        System.out.println("Sub of two numbers = "+sub);
+    }
+}
+
+output:
+Sub of two numbers = 6
