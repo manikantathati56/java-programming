@@ -1,0 +1,24 @@
+// java program for subtraction of two numbers using functions
+
+import java.util.Scanner;
+public class subtractiontwofunctons {
+    public static void my_function(int n1,int n2){
+        int difference=n1-n2;
+        System.out.println("Subtraction of two numbers = "+difference);
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the first number:");
+        int n1=sc.nextInt();
+        System.out.println("Enter the second number:");
+        int n2=sc.nextInt();
+        my_function(n1, n2);
+    }
+}
+
+output:
+Enter the first number:
+4
+Enter the second number:
+2
+Subtraction of two numbers = 2
