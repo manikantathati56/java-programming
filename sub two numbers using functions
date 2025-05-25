@@ -1,0 +1,16 @@
+// java program to sub two numbers using functions
+
+public class subtwofunctions{
+    public static void my_function(int n1,int n2){
+        int sub=n1-n2;
+        System.out.println("Sub of two numbers = "+sub);
+    }
+    public static void main(String[] args) {
+        int n1=10;
+        int n2=2;
+        my_function(n1, n2);
+    }
+}
+
+output:
+Sub of two numbers = 8
