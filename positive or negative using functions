@@ -1,0 +1,28 @@
+// java program to find positive or negative using functions
+
+import java.util.Scanner;
+public class positivenegativefunctions {
+    public static void my_function(int n){
+        if(n>0){
+            System.out.println("Positive number");
+        }
+        else if(n<0){
+            System.out.println("Negative number");
+        }
+        else{
+            System.out.println("Equal to zero");
+        }
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number:");
+        int n=sc.nextInt();
+        my_function(n);
+        sc.close();
+    }
+}
+
+output:
+Enter the number:
+-5
+Negative number
