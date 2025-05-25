@@ -1,0 +1,16 @@
+// java program to add two numbers using functions
+
+public class addtwofunctions{
+    public static void my_function(int n1,int n2){
+        int sum=n1+n2;
+        System.out.println("Add two numbers = "+sum);
+    }
+    public static void main(String[] args) {
+        int n1=10;
+        int n2=5;
+        my_function(n1,n2);
+    }
+}
+
+output:
+Add two numbers = 15
