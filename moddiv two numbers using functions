@@ -1,0 +1,16 @@
+// java program for moddiv two numbers using functions
+
+public class moddivtwofunctions{
+    public static void my_function(int n1,int n2){
+        int moddiv=n1%n2;
+        System.out.println("Moddiv two numbers = "+moddiv);
+    }
+    public static void main(String[] args) {
+        int n1=10;
+        int n2=5;
+        my_function(n1, n2);
+    }
+}
+
+output:
+Moddiv two numbers = 0
