@@ -1,0 +1,13 @@
+// java program to multi of two numbers
+
+public class multitwo {
+    public static void main(String[] args) {
+        int n1=10;
+        int n2=2;
+        int multi=n1*n2;
+        System.out.println("Multi of two numbers = "+multi);
+    }
+}
+
+output:
+Multi of two numbers = 20
