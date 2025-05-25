@@ -1,0 +1,16 @@
+// java program for div of two numbers using functions
+
+public class divtwofunctions {
+    public static void my_function(int n1,int n2){
+        float div=n1/n2;
+        System.out.println("Div of two numbers = "+div);
+    }
+    public static void main(String[] args) {
+        int n1=10;
+        int n2=5;
+        my_function(n1, n2);
+    }
+}
+
+output:
+Div of two numbers = 2.0
