@@ -1,0 +1,25 @@
+// java program to find even or odd using functions
+
+import java.util.Scanner;
+public class evenoddfunction {
+    public static void my_function(int n){
+        if (n%2==0){
+            System.out.println("Even number");
+        }
+        else{
+            System.out.println("Odd number");
+        }
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number:");
+        int n=sc.nextInt();
+        my_function(n);
+        sc.close();
+    }
+}
+
+output:
+Enter the number:
+33
+Odd number
