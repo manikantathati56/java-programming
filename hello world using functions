@@ -1,0 +1,14 @@
+// java program to print hello world using functions
+
+public class helloworldfunctions {
+    public static void my_function(){
+        System.out.println("Hello World!");
+    }
+    public static void main(String[] args) {
+        my_function();
+    }
+}
+
+
+output:
+Hello World!
