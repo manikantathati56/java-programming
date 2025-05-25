@@ -1,0 +1,21 @@
+// java program for square of a number using functions
+
+import java.util.Scanner;
+public class squarenumberfunctions {
+    public static void my_function(int n){
+        int square=n*n;
+        System.out.println("Square of a number = "+square);
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number:");
+        int n=sc.nextInt();
+        my_function(n);
+        sc.close();
+    }
+}
+
+output:
+Enter the number:
+2
+Square of a number = 4
