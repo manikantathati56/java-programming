@@ -1,0 +1,33 @@
+// java program to find quotient and remainder using functions
+
+import java.util.Scanner;
+public class quotientremainderfunctions {
+    public static void my_function(int dividend,int divisor){
+        if(divisor==0){
+            System.out.println("Error! quotient and remainder not possible");
+        }
+        else{
+            double quotient=dividend/divisor;
+            int remainder=dividend%divisor;
+            System.out.println("Quotient = "+quotient);
+            System.out.println("Remainder = "+remainder);
+        }
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the dividend value:");
+        int dividend=sc.nextInt();
+        System.out.println("Enter the divisor value:");
+        int divisor=sc.nextInt();
+        my_function(dividend, divisor);
+        sc.close();
+    }
+}
+
+output:
+Enter the dividend value:
+4
+Enter the divisor value:
+2
+Quotient = 2.0
+Remainder = 0
