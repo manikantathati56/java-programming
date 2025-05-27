@@ -1,0 +1,22 @@
+// java program to find the perimeter of circle using functions
+
+import java.util.Scanner;
+public class perimetercirclefunctions {
+    public static void my_function(double radius){
+        double pi=3.14;
+        double perimeter=2*pi*radius;
+        System.out.println("Perimeter of circle = "+perimeter);
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the radius of circle:");
+        double radius=sc.nextDouble();
+        my_function(radius);
+        sc.close();
+    }
+}
+
+output:
+Enter the radius of circle:
+5
+Perimeter of circle = 31.400000000000002
