@@ -1,0 +1,21 @@
+// java program to find area of square using functions
+
+import java.util.Scanner;
+public class areasquarefunctions {
+    public static void my_function(double side){
+        double area=side*side;
+        System.out.println("Area of square = "+area);
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the side of square:");
+        double side=sc.nextDouble();
+        my_function(side);
+        sc.close();
+    }
+}
+
+output:
+Enter the side of square:
+5
+Area of square = 25.0
