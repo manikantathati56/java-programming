@@ -1,0 +1,30 @@
+//java program to swap two numbers using arthimetic operators
+
+import java.util.Scanner;
+public class swaptwoarthimetic {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the first number:");
+        int first=sc.nextInt();
+        System.out.println("Enter the second number:");
+        int second=sc.nextInt();
+        System.out.println("Before swapping first number = "+first);
+        System.out.println("Before swapping second number = "+second);
+        first=first+second;
+        second=first-second;
+        first=first-second;
+        System.out.println("After swapping first number = "+first);
+        System.out.println("After swapping second number = "+second);
+        sc.close();
+    }
+}
+
+output:
+Enter the first number:
+3
+Enter the second number:
+2
+Before swapping first number = 3
+Before swapping second number = 2
+After swapping first number = 2
+After swapping second number = 3
