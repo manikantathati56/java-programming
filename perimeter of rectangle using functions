@@ -1,0 +1,25 @@
+// java program to find the perimeter of rectangle using functions
+
+import java.util.Scanner;
+public class perimeterrectanglefunctions {
+    public static void my_function(double length,double breadth){
+        double perimeter=2*(length+breadth);
+        System.out.println("Perimeter of rectangle = "+perimeter);
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the length of rectangle:");
+        double length=sc.nextDouble();
+        System.out.println("Enter the breadth of rectangle:");
+        double breadth=sc.nextDouble();
+        my_function(length, breadth);
+        sc.close();
+    }
+}
+
+output:
+Enter the length of rectangle:
+5
+Enter the breadth of rectangle:
+5
+Perimeter of rectangle = 20.0
