@@ -1,0 +1,22 @@
+// java program to find the area of circle using functions
+
+import java.util.Scanner;
+public class areacirclefunctions {
+    public static void my_function(double radius){
+        double pi=3.14;
+        double area=pi*radius*radius;
+        System.out.println("Area of circle = "+area);
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the radius of circle:");
+        double radius=sc.nextDouble();
+        my_function(radius);
+        sc.close();
+    }
+}
+
+output:
+Enter the radius of circle:
+5
+Area of circle = 78.5
